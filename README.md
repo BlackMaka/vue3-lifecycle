@@ -21,12 +21,14 @@
     "vue": "^3.2.19"
   }
 ```
+- created() : 컴포넌트 연결직후 가장 빠르게 접근가능한 훅/ 인스턴스가 생성된 후에 코드를 실행하는데 사용됩니다
+- mounted() : html dom이 그려진(렌더링 된) 직후
 
 ![image](https://user-images.githubusercontent.com/54789601/136926638-30bfac3e-1834-4659-88b1-04b97f3d36fc.png)
 
 
-- created() : 컴포넌트 연결직후 가장 빠르게 접근가능한 훅/ 인스턴스가 생성된 후에 코드를 실행하는데 사용됩니다
-- mounted() : html dom이 그려진(렌더링 된) 직후
+
+---
 
 ## Versions
 
