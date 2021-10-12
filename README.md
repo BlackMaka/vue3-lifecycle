@@ -1,5 +1,30 @@
 # Vue3 템플릿 with Webpack
 
+## 참고
+- [vue3 공식](https://v3.vuejs.org/guide/introduction.html)<br>
+- [vue3 공식 라이프사이클/훅](https://v3.ko.vuejs.org/guide/instance.html#%E1%84%8B%E1%85%A5%E1%84%91%E1%85%B3%E1%86%AF%E1%84%85%E1%85%B5%E1%84%8F%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%89%E1%85%A7%E1%86%AB-%E1%84%8B%E1%85%B5%E1%86%AB%E1%84%89%E1%85%B3%E1%84%90%E1%85%A5%E1%86%AB%E1%84%89%E1%85%B3-%E1%84%89%E1%85%A2%E1%86%BC%E1%84%89%E1%85%A5%E1%86%BC%E1%84%92%E1%85%A1%E1%84%80%E1%85%B5)<br>
+![image info](https://v3.vuejs.org/images/lifecycle.svg)
+
+## 명령어
+```bash
+  //프로젝트 생성
+  $ npx degit ParkYoungWoong/vue3-webpack-template#eslint vue3-lifecyle
+
+  //의존성 설치
+  $ npm install
+  
+
+```
+```json
+  //package.json
+  "dependencies": {
+    "vue": "^3.2.19"
+  }
+```
+
+- created() : 컴포넌트 연결직후 가장 빠르게 접근가능한 훅
+- mounted() : html dom이 그려진(렌더링 된) 직후
+
 ## Versions
 
 - [Default](https://github.com/ParkYoungWoong/vue3-webpack-template/tree/master)<br>
